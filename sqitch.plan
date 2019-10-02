@@ -9,3 +9,5 @@ change_pass [users appschema] 2019-10-02T06:49:11Z James <james@keto.tw> # Creat
 @v1.0.0-dev1 2019-10-02T07:36:16Z James <james@keto.tw> # Tag v1.0.0-dev1.
 
 flips [appschema users] 2019-10-02T08:28:41Z James <james@keto.tw> # adds table for storing flips.
+insert_flip [users appschema] 2019-10-02T08:38:27Z James <james@keto.tw> # Creates a function to insert a flip.
+delete_flip [users appschema] 2019-10-02T08:39:19Z James <james@keto.tw> # Creates a function to remove a flip.
