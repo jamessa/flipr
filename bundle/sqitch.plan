@@ -1,0 +1,9 @@
+%syntax-version=1.0.0
+%project=flipr
+%uri=https://github.com/sqitchers/sqitch-intro/
+
+appschema 2019-10-02T05:09:23Z James <james@keto.tw> # add schema for all flipr objects
+users [appschema] 2019-10-02T06:05:43Z James <james@keto.tw> # creates table to track our users.
+insert_user [users appschema] 2019-10-02T06:48:08Z James <james@keto.tw> # Creates a function to insert a user.
+change_pass [users appschema] 2019-10-02T06:49:11Z James <james@keto.tw> # Creates a function to a change a user password.
+@v1.0.0-dev1 2019-10-02T07:36:16Z James <james@keto.tw> # Tag v1.0.0-dev1.
