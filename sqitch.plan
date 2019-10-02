@@ -12,3 +12,7 @@ flips [appschema users] 2019-10-02T08:28:41Z James <james@keto.tw> # adds table 
 insert_flip [users appschema] 2019-10-02T08:38:27Z James <james@keto.tw> # Creates a function to insert a flip.
 delete_flip [users appschema] 2019-10-02T08:39:19Z James <james@keto.tw> # Creates a function to remove a flip.
 @v1.0.0-dev2 2019-10-02T08:59:41Z James <james@keto.tw> # Tag v1.0.0-dev2.
+
+crypto [users] 2019-10-02T11:11:35Z James <james@keto.tw> # encrypt password
+insert_user [insert_user@v1.0.0-dev2 crypto] 2019-10-02T11:32:12Z James <james@keto.tw> # encrypt password
+change_pass [change_pass@v1.0.0-dev2 crypto] 2019-10-02T11:41:47Z James <james@keto.tw> # change_pass to use pgcrypto
